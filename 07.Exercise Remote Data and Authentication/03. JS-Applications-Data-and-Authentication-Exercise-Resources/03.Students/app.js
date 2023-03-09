@@ -39,7 +39,7 @@ async function solve() {
         const facultyNumberInput = document.getElementsByName('facultyNumber')[0];
         const gradeInput = document.getElementsByName('grade')[0];
 
-        if (isNaN(I\facultyNumberInput.value) || isNaN(gradeInput.value)) {
+        if (isNaN(facultyNumberInput.value) || isNaN(gradeInput.value)) {
             return alert('Faculty number and grade must be a number!');
         }
         if (firstNameInput.value !== '' &&
