@@ -43,10 +43,10 @@ async function request(method = "GET", url, data) {
 
 }
 
- const get = request.bind(null, "GET");
- const post = request.bind(null, "POST");
- const put = request.bind(null, "PUT");
- const del = request.bind(null, "DEL");
+ const get = request.bind(null, "get");
+ const post = request.bind(null, "post");
+ const put = request.bind(null, "put");
+ const del = request.bind(null, "delete");
 
  export {
         get,
