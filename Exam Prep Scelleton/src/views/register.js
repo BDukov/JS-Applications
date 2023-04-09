@@ -17,7 +17,7 @@ export function registerPage(ctx){
 
     //TODO change user object based on requirements
     async function onRegister({email, password, repass}, form){
-        if(email == '', password == '', repass == ''){
+        if(email == ''|| password == ''){
             return alert('All fields are required!');
         }
         if (password != repass) {

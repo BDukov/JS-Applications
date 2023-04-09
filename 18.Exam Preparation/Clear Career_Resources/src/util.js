@@ -1,4 +1,4 @@
-const itemName = 'userData'
+const itemName = 'userData';
 
 export function getUserData() {
     return JSON.parse(localStorage.getItem(itemName));
@@ -19,6 +19,6 @@ export function createSubmitHandler(callback){
         const formData = new FormData(form);
         const data = Object.fromEntries(formData.entries());
 
-        callback(data, form, event);
-    }
+        callback(data, form);
+    };
 }

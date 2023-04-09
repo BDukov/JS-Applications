@@ -5,8 +5,7 @@ import { get, post } from './api.js';
 const endpoints = {
     login: '/users/login',
     register: '/users/register',
-    logout: '/users/logout',
-    
+    logout: '/users/logout'    
 }
 
 //TODO change user object according to project requirements
