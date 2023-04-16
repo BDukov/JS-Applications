@@ -13,6 +13,9 @@ const catalogTemplate = (offers) => html`
 
 const offerCard = (offer) => html`
    <div class="offer">
+            <p>
+              <strong>Printers: </strong><span class="printers">${offer.printers}</span>
+</p>
             <img src=${offer.imageUrl} alt="example1" />
             <p>
               <strong>Title: </strong><span class="title">${offer.title}</span>
